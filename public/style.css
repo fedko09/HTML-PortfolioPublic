@@ -1,0 +1,22 @@
+div{ 
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+  }
+
+  body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+  }
+
+#img {
+border: 5px solid white;
+width: auto;
+}
+
+h1{
+font-family: 'Pixelify Sans', cursive;
+text-transform: uppercase;
+}
