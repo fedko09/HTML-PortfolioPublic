@@ -20,9 +20,19 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
     <meta charset="UTF-8">
     <title>Fedko Web Portfolio</title>
 <style>
-    img {
-        height:300px;
+    .box1 {
+        align-items: left;
     }
+
+    .box2 {
+        margin-left: 52%;
+        margin-top: -43.5%;
+    }
+    
+    img {
+        height: 170px;
+    }
+
     body {
         background-color: darkblue;
     }
@@ -35,35 +45,46 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
         border: 2px solid grey;
         padding: 0%;
         margin: 0%;
+        height: 250px;
+        width: 50%;
+        text-align: center;
     }
-
+    
     h1{
         text-align: center;
     }
     
+    h2#title {
+        color: red;
+        text-align: center;
+    }
 </style>
 
 </head>
 <body>
     <h1> Bogdan Fedko's Portfolio</h1>
-    <h2>I'm a Web Developer</h2>
+    <h2 id="title">I'm a Web Developer</h2>
             <hr/>
-            <div>
+            <div class="box1">
         <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
         <img src="./assets/images/movie-ranking2.png" alt="Movie Ranking Project Website"></div>
             <br />
-            <div>
+            <div class="box2">
         <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
         <img src="./assets/images/birthday-invite2.png" alt="birthday invite website"></div>
             <br />
-            <div>
+            <div class="box1">
         <h3><a href="https://fedko09.github.io/Capstone-1-Project/">Fedko Resume</a></h3>
         <img src="./assets/images/resume.png" alt="Fedko Resume Preview"></div>
             <br />
-            <div>
-        <h3><a href="./public/CSSmeme.html">CSS Meme Site</h3>
+            <div class="box2">
+        <h3><a href="./public/CSSmeme.html">CSS Meme Site</a></h3>
         <img src="./assets/images/dreamsmall.png" alt="meme website"></div>
-            <hr />
+            <br />
+            <div class="box1">
+        <h3><a href="./public/CSSflag.html">CSS Flag of Laos</a></h3>
+        <img src="./assets/images/laos.png" alt="flag of laos made with css"></div>
+        <hr />
         <a href="./public/about.html"> About Me</a>
         <a href="./public/contact.html">Contact Me</a>
 </body>
